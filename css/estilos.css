@@ -3,70 +3,94 @@ body{
   background-size: 100%;
 }
 h1{
-   text-align: center; color: rgb(204, 80, 163);
+   text-align: center; 
+   color: rgb(245, 12, 140);
+   text-shadow: -2px 2px 0 lightgoldenrodyellow;
   background-image: url("titulos.jpg") ;
   border-radius: 0.5em;
   font-size: 27px;
   font-style: initial;
 }
 
+#subtitulos{
+ background-image:url("imagenboton.jpg") ;
+ color: rgb(250, 246, 249);
+ text-align:left;
+ width: 100%;
+ height: 34px;
+margin: 0 auto;
+ font-size: 20px;
+ font: italic bold 23px Georgia, Serif;
+ font-weight: 27px;
+ display: inline-block;
+ text-shadow: -4px 2px 0 rgb(250, 5, 99), -6px 4px 0 black ;
+ border-radius: 0.6em;
+ line-height: 36px;
+}
+  
+
+img{
+  width: 100%;
+  max-width:300px;
+}
 #botonmakeup{
  padding-bottom: 10px;
- background-color: black;
- color: rgb(144, 59, 170);
+ background-color: rgb(63, 2, 31);
+ color: rgb(242, 235, 245);
  border-radius: 0.9em;
  font-size: 26px;
- text-shadow: cornsilk; 8px 10px 6px;
- box-shadow: red( 8, 3, 14, 0.9 ); 5px 6px 4px;
+ text-shadow: -3px 2px 0 rgb(243, 4, 95), -4px 3px 0 rgb(19, 7, 11)  ;
+ box-shadow: -3px 2px 1px rgba(247, 16, 158, 0.877), -4px 3px 0 rgba(139, 5, 139, 0.726), -5px 4px 0 black  ;
  font-family: Heveltica;
 }
 #botonmakeup:hover{
   background-image: url("imagenboton.jpg");
   color: rgb(238, 231, 236);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 32px;
-  text-shadow: rgb(29, 3, 53);
-  box-shadow: rgb(105, 4, 26);
+  font-size: 30px;
+  text-shadow: -3px 2px 0 rgba(253, 4, 66, 0.712), -5px 4px 0 black, ;
+  font-style:oblique;
+  box-shadow: -3px 2px 1px rgba(247, 16, 158, 0.877), -4px 3px 0 rgba(139, 5, 139, 0.726), -5px 4px 0 black  ;
 }
 #botonhigieneysalud{
   padding-bottom: 10px;
-  background-color: rgb(146, 31, 127);
-  color: rgb(16, 3, 29);
+  background-color: rgb(34, 2, 56);
+  color: rgb(189, 165, 212);
   border-radius: 0.9em;
   font-size: 26px;
-  text-shadow: black 8px, 10px, 6px ;
-  box-shadow: rgb(31, 1, 13) 5px, 6px, 4px;
-  font-style: oblique;
-  font-family: heveltica;
+  text-shadow:-3px 2px 0 rgb(247, 11, 51), -5px 4px 0 black  ;
+  box-shadow: -3px 2px 1px rgba(247, 16, 158, 0.877), -4px 3px 0 rgba(139, 5, 139, 0.726), -5px 4px 0 black  ;
+  font-style:inherit;
+  font-family: Heveltica ;
 
 }
 #botonhigieneysalud:hover{
 background-image: url("cuidados.jpg");
-color: rgb(187, 53, 93);
+color: rgb(247, 242, 243);
+text-shadow:-3px 2px 0 rgb(151, 5, 170) , -5px 4px 0 rgb(2, 2, 59);
+font-style:oblique;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 32px;
-text-shadow: rgb(16, 3, 29);
-box-shadow: rgb(105, 4, 37);
+font-size: 30px;
+
 }
 
 #brochas{
   padding-bottom: 10px ;
-  background-color: rgb(18, 3, 59);
-  color: rgb(255, 8, 144);
+  background-color: rgb(15, 3, 70);
+  color: rgb(194, 194, 194);
+  text-shadow: -2px 2px 2px rgb(177, 9, 255), -3px 3px 2px rgb(0, 0, 0);
   border-radius: 0.9em;
   font-size:26px;
-  text-shadow: cyan 8px, 2px, 6px;
-  box-shadow: darkorchid 5px, 4px, 8px ;
- font-style: oblique;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-shadow: -3px 2px 0px rgb(129, 2, 248) , -5px 4px 1px black;
+ font-style: inherit;
+font-family:Heveltica;
 }
 #brochas:hover{
 background-image: url("brochasbuton.jpg");
-color:rgb(255, 255, 255);
+color:orchid;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 32px;
-text-shadow: rgb(224, 10, 10);
-box-shadow: rgb(13, 219, 185) ;
+font-size: 30px;
+text-shadow: -3px 2px 0 rgb(168, 4, 83), -5px 4px 0 rgb(36, 2, 68) ;
 font-style: oblique;
 }
 #boton{
@@ -74,9 +98,9 @@ font-style: oblique;
   color: palevioletred;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 22px;
-  text-shadow: rgb(12, 7, 3);(30, 6, 60);
-  border-radius: 0.9em;
-  box-shadow: inset 9em 7em 3em 2em black;
+  text-shadow: 3px 3px 0 black;
+  border-radius: 0.9em ;
+  box-shadow: inset 9em 7em 3em 2em black ;
 }
 #boton:hover{
 background-color: rgb(36, 6, 20);
@@ -86,25 +110,30 @@ font-style: oblique;
 
 }
 p{
-  font-family: unset;
-  color:rgb(7, 1, 66);
-  font-style:oblique;
+  font: italic 27px georgia ;
+  color:rgb(19, 1, 26);
+  text-shadow: -2px 2px 0 rgb(243, 127, 243), -3px 3px 0 rgb(65, 3, 41), -4px 4px 0 black  ;
+  font-style:italic;
   font-size: 26px;
+  font: italic bold 23px Georgia, Serif;
+
 
 }
 #introduccion{
-  color:rgb(244, 248, 248) ;
-  background-color: rgb(167, 115, 95);    
+  color:rgb(11, 1, 12) ;
+  background-color: rgb(161, 87, 118);    
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-shadow: 3px 3px 5px black;
-  height: 400px;
+  text-shadow: -3px 3px 3px rgb(252, 5, 219);
+  font-size: 23px; 
 }
 #tableindex{  
-  color: rgb(182, 32, 196);
+  color: rgb(250, 253, 255);
+  text-shadow: -2px 3px 3px  blueviolet;
   background-color:rgb(29, 4, 49);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-style: italic;
+  font-style: italic;
 
   
 }
+
 
